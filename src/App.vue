@@ -6,9 +6,11 @@
 
 <script>
 import MainView from './components/Main.vue'
+import Router from './Router.js'
 
 export default {
   name: "App",
+  router: Router,
   components: {
     MainView
   },
